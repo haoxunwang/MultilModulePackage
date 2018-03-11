@@ -1,0 +1,127 @@
+The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
+	at build_3bs4aw181byif5tbprs9w2rev$_run_closure3$_closure5.doCall(/Users/Zihuatanejo/coding/GroovyProjects/MultilModulePackage/build.gradle:32)
+task ':clean'
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/Zihuatanejo/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/Zihuatanejo/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+NDK is missing a "platforms" directory.
+If you are using NDK, verify the ndk.dir is set to a valid NDK directory.  It is currently set to /Users/Zihuatanejo/Library/Android/sdk/ndk-bundle.
+If you are not using NDK, unset the NDK variable from ANDROID_NDK_HOME or local.properties to remove this warning.
+
+Gradle version: 4.1
+EMBED R CLASS
+/Users/Zihuatanejo/coding/GroovyProjects/MultilModulePackage/moduletwo/build/intermediates/bundles/release/libs
+/Users/Zihuatanejo/coding/GroovyProjects/MultilModulePackage/moduletwo/build/fat-aar/release/
+Configuration 'compile' in project ':moduletwo' is deprecated. Use 'implementation' instead.
+:clean
+:app:clean
+:moduleone:clean
+:moduletwo:clean
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:moduleone:preBuild UP-TO-DATE
+:moduleone:preDebugBuild UP-TO-DATE
+:moduleone:compileDebugAidl
+:moduleone:compileDebugNdk NO-SOURCE
+:moduleone:compileDebugRenderscript
+:moduleone:checkDebugManifest
+:moduleone:generateDebugBuildConfig
+:moduleone:prepareLintJar
+:moduleone:generateDebugResValues
+:moduleone:generateDebugResources
+:moduleone:packageDebugResources
+:moduleone:platformAttrExtractor
+:moduleone:processDebugManifest
+:moduleone:javaPreCompileDebug
+:moduleone:mergeDebugShaders
+:moduleone:compileDebugShaders
+:moduleone:generateDebugAssets
+:moduleone:mergeDebugAssets
+:moduleone:mergeDebugConsumerProguardFiles UP-TO-DATE
+:moduleone:packageDebugRenderscript NO-SOURCE
+:moduleone:processDebugJavaRes NO-SOURCE
+:moduleone:mergeDebugJniLibFolders
+:moduleone:transformNativeLibsWithMergeJniLibsForDebug
+:moduleone:transformNativeLibsWithSyncJniLibsForDebug
+:moduletwo:preBuild UP-TO-DATE
+:moduletwo:preDebugBuild UP-TO-DATE
+:moduletwo:compileDebugAidl
+:moduletwo:compileDebugNdk NO-SOURCE
+:moduletwo:compileDebugRenderscript
+:moduletwo:checkDebugManifest
+:moduletwo:generateDebugBuildConfig
+:moduletwo:prepareLintJar
+:moduletwo:generateDebugResValues
+:moduletwo:generateDebugResources
+:moduletwo:packageDebugResources
+:moduletwo:platformAttrExtractor
+:moduletwo:processDebugManifest
+:moduletwo:mergeDebugShaders
+:moduletwo:compileDebugShaders
+:moduletwo:generateDebugAssets
+:moduletwo:mergeDebugAssets
+:moduletwo:mergeDebugConsumerProguardFiles UP-TO-DATE
+:moduletwo:packageDebugRenderscript NO-SOURCE
+:moduletwo:processDebugJavaRes NO-SOURCE
+:moduletwo:mergeDebugJniLibFolders
+:moduletwo:transformNativeLibsWithMergeJniLibsForDebug
+:moduletwo:transformNativeLibsWithSyncJniLibsForDebug
+:moduleone:processDebugResources
+:moduleone:generateDebugSources
+:moduleone:compileDebugJavaWithJavac
+:moduleone:extractDebugAnnotations
+:moduleone:transformResourcesWithMergeJavaResForDebug
+:moduleone:transformClassesAndResourcesWithSyncLibJarsForDebug
+:moduleone:bundleDebug
+:moduleone:compileDebugSources
+:moduleone:assembleDebug
+:moduleone:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:moduletwo:javaPreCompileDebug
+:moduletwo:processDebugResources
+:moduletwo:generateDebugSources
+:moduletwo:compileDebugJavaWithJavac
+:moduletwo:extractDebugAnnotations
+:moduletwo:transformResourcesWithMergeJavaResForDebug
+:moduletwo:transformClassesAndResourcesWithSyncLibJarsForDebug
+:moduletwo:bundleDebug
+:moduletwo:compileDebugSources
+:moduletwo:assembleDebug
+
+BUILD SUCCESSFUL in 11s
+76 actionable tasks: 74 executed, 2 up-to-date
