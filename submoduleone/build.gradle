@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
-apply from: '../fat-aar.gradle'
 
 android {
     compileSdkVersion 23
     buildToolsVersion '25.0.1'
+
+
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23
@@ -26,21 +26,7 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-
     compile 'com.android.support:appcompat-v7:23.1.0'
     testCompile 'junit:junit:4.12'
 
-    embedded project(':moduleone')
-    //compile project(':moduleone')
-}
-
-
-uploadArchives {
-    repositories.mavenDeployer {
-        repository(url: uri('../repo'))
-        pom.groupId = "com.nelson"
-        pom.artifactId = "moduletwo"
-        pom.version = "1.0.0"
-        pom.packaging = "aar"
-    }
 }
